@@ -5,16 +5,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Background
 
 This example is to show how to use redux toolkit. you need to
-npm intall @reduxjs/toolkit react-reducx
+>npm intall @reduxjs/toolkit react-reducx
 
 Pay attention to how to use the followings
-. <Provider store={store}>
-. create store with configureStore with reducer inside
-. create specific Slices with their reducers inside
+> \<Provider store={store}\>\
+> create store with configureStore with reducer inside\
+> create specific Slices with their reducers inside
 
 How to use it
-. in specific component, use useSelector to get the state, and
-. dispatch actions
+> in specific component, use useSelector to get the state, and\
+> dispatch actions
 
 ## Available Scripts
 
