@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Background
+
+This example is to show how to use redux toolkit. you need to
+npm intall @reduxjs/toolkit react-reducx
+
+Pay attention to how to use the followings
+. <Provider store={store}>
+. create store with configureStore with reducer inside
+. create specific Slices with their reducers inside
+
+How to use it
+. in specific component, use useSelector to get the state, and
+. dispatch actions
+
 ## Available Scripts
 
 In the project directory, you can run:
